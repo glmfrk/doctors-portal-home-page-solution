@@ -1,0 +1,49 @@
+.blogs .card{
+    border: 0;
+    background-image: url('../../../images/quote.png');
+       background-repeat: no-repeat;
+    background-position: right top;
+}
+.blogs .card-header{
+    border: 0;
+    background-color: transparent;
+
+
+}
+
+.blogs .card:hover{
+    background-image: linear-gradient(75deg, #19D3AE,#0fcfec),
+    url('../../../images/quote.png');
+    color: #fff !important;
+    transition:  .1s  all ease-in-out !important;
+}
+.blogs .card:hover .card-body{
+  
+    background-image:
+    url('../../../images/quote.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 60%;
+    z-index: 50;
+}
+.blogs .card:hover h6{
+    color: #fff !important;
+    display: block;
+}
+.blogs .card:hover p.card-text
+{
+    color: #fff !important;
+    display: none;
+}
+.blogs .card:hover img{
+    display: none;
+}
+.arrOw-Right{
+    width: 75px;
+    font-weight: bold;
+    display: none;
+}
+.blogs .card:hover .arrOw-Right{
+    display: block;
+    margin-bottom: 50px;
+}
