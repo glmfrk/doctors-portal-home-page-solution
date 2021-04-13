@@ -2,8 +2,14 @@
     height: 100px;
     padding: 30px;
 }
-.info-primary{
+.info-primary {
     background-color: #1CC7C1;
+}
+.react-calendar__tile--active{
+    background-color: #1CC7C1;
+}
+.text-brand{
+    color: #1CC7C1;
 }
 .info-dark{
     background-color: #3A4256;

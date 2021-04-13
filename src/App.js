@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import NotFound from './Components/NotFound/NotFound';
 import Home from './Components/Home/Home/Home';
+import Appointment from './Components/Appoinment/Appointment/Appointment';
 
 
 
@@ -20,8 +21,8 @@ function App() {
         <Route exact path="/">
             <Home />
         </Route>
-        <Route path="/about">
-         
+        <Route path="/appoinment">
+         <Appointment />
         </Route>
         <Route path="*">
             <NotFound />
